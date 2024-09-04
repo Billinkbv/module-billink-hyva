@@ -1,12 +1,12 @@
-# Billink for Magento 2
+# Billink for Magento 2 - Hyva Checkout compatibility
 
-This is the official composer package of the Billink payment module for Magento 2.
+This is the official composer package of the Billink payment module for Magento 2 and Hyva Checkout.
 
 Please visit billink.nl to set up an account.
 
 ---
 
-Versions 2.0.0 and later of this module require Magento 2.4+ and PHP 8.1+.
+Require Magento 2.4+ and PHP 8.1+.
 
 ---
 
@@ -14,8 +14,8 @@ Versions 2.0.0 and later of this module require Magento 2.4+ and PHP 8.1+.
 
 1. Go to your Magento 2 installation directory.
 2. Execute `bin/magento maintenance:enable`
-3. Execute `composer require billinkbv/module-billink`
-4. Execute `bin/magento module:enable Billink_Billink`
+3. Execute `composer require billinkbv/module-billink-hyva`
+4. Execute `bin/magento module:enable Billink_Billink Billink_BillinkHyva`
 5. Execute `bin/magento setup:upgrade`
 6. Execute `bin/magento setup:di:compile`
 7. Execute `bin/magento setup:static-content:deploy`
