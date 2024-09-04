@@ -14,7 +14,7 @@ Require Magento 2.4+ and PHP 8.1+.
 
 1. Go to your Magento 2 installation directory.
 2. Execute `bin/magento maintenance:enable`
-3. Execute `composer require billinkbv/module-billink-hyva`
+3. Execute `composer require billinkbv/module-billink:^2.1 billinkbv/module-billink-hyva`
 4. Execute `bin/magento module:enable Billink_Billink Billink_BillinkHyva`
 5. Execute `bin/magento setup:upgrade`
 6. Execute `bin/magento setup:di:compile`
