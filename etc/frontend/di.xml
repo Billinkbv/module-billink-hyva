@@ -8,4 +8,8 @@
             </argument>
         </arguments>
     </type>
+
+    <type name="Magento\Quote\Model\Quote\Payment">
+        <plugin name="billink_trigger_data_update_after_payment_set" type="Billink\BillinkHyva\Plugin\Quote\PaymentPlugin" />
+    </type>
 </config>
