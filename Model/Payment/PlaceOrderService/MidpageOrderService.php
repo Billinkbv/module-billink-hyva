@@ -42,7 +42,7 @@ class MidpageOrderService extends AbstractPlaceOrderService
             return $order->getPayment()?->getAdditionalInformation()[SessionReader::REDIRECT_URL];
         } catch (\Exception $e) {
             $this->logger->critical("Couldn't redirect user to Billink page ".$e->getMessage());
-            throw new LocalizedException(__('Unable to retrieve payment api information, please try again or concat support.'));
+            throw new LocalizedException(__('Unable to retrieve payment api information, please try again or contact support.'));
         }
     }
 }
