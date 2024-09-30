@@ -7,5 +7,15 @@
                    class="Billink\BillinkHyva\Block\CheckoutTemplate">
             </block>
         </referenceBlock>
+
+        <!-- Adding billink payment costs. -->
+        <referenceBlock name="price-summary.total-segments">
+            <block name="price-summary.total-segment.billink_midpage_fee"
+                   as="billink_midpage_fee"
+                   template="Billink_BillinkHyva::checkout/price-summary/total-segments/midpage.phtml"
+            >
+            </block>
+        </referenceBlock>
+
     </body>
 </page>
