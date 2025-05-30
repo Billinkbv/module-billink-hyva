@@ -6,7 +6,7 @@ Please visit billink.nl to set up an account.
 
 ---
 
-Require Magento 2.4+ and PHP 8.1+.
+Require Magento 2.4.6+ and PHP 8.1+.
 
 ---
 
